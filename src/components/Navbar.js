@@ -29,9 +29,9 @@ function Navbar({nav,navShow,linkStyle}) {
             <div className="navigation_bar">
                 <span className="navigation_logo">Andrei Dragulin</span>
                 <ul className={`navigation_links ${nav ? "nav_show" : ""}`}>
-                    <Link to="/personal-web" style={linkStyle} className="link"><li>Home</li></Link>
-                    <Link to="/about" style={linkStyle} className="link"><li>About me</li></Link>
-                    <Link to="/portofolio" style={linkStyle} className="portofolio_link"><li id="navigation_portofolio">Portofolio</li></Link>
+                    <Link exact to="/" style={linkStyle} className="link"><li>Home</li></Link>
+                    <Link exact to="/about" style={linkStyle} className="link"><li>About me</li></Link>
+                    <Link exact to="/portofolio" style={linkStyle} className="portofolio_link"><li id="navigation_portofolio">Portofolio</li></Link>
                 </ul>
                 <div className="navigation_burger" onClick={navigationShow}>
                     <div className="line_1"></div>

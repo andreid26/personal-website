@@ -29,7 +29,7 @@ function App() {
         <div className="App">
           <Navbar nav={nav} navShow={navShow} linkStyle={linkStyle}/>
           <Switch>
-            <Route path="/personal-web" exact component={() => <Home linkStyle={linkStyle} />}/>
+            <Route path="/" exact component={() => <Home linkStyle={linkStyle} />}/>
             <Route path="/about" exact component={About} />
             <Route path="/portofolio" exact component={Portofolio} />
           </Switch>        
