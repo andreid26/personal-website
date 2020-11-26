@@ -135,9 +135,6 @@ function About() {
                 </div>
             </div>
             <div className="about_footer">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#fff" fillOpacity="1" d="M0,160L1440,96L1440,320L0,320Z"></path>
-                </svg>
                 <span>Copyright &copy; 2020 with <i className="fas fa-heart" style={{color:"red"}}></i> by Andrei</span>
             </div>
         </div>

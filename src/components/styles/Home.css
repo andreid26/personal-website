@@ -32,7 +32,7 @@
 
 .home_container svg{
     position: absolute;
-    bottom:0;
+    bottom:-2px;
     width:100%;
     height:auto;
 }
@@ -160,7 +160,7 @@
         position: absolute;
         display:block;
         transform:rotate(180deg);
-        top:-1px;
+        top:-2px;
     }
     .home_footer{
         display:block;

@@ -370,22 +370,21 @@
 }
 
 .about_footer{
-    height:200px;
     position: relative;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-}
-
-.about_footer svg{
-    position: absolute;
     bottom:0;
+    height:auto;
+    width:100%;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    margin-top:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about_footer span{
-    position:absolute;
-    bottom:10%;
-    left:50%;
-    transform: translateX(-50%);
-    z-index:1;
+    padding:20px 0;
+    color:#fff;
+    font-size:12px;
 }
 
 .footer_title{
