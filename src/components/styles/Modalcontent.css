@@ -1,0 +1,13 @@
+.modal_content_text{
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+    display:block;
+    padding:15px 0;
+}
+.modal_content_list{
+    padding:0px;
+    list-style: none;
+}
+.modal_content_list li{
+    font-family: 'Roboto',sans-serif;
+}
