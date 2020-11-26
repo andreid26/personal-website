@@ -3,7 +3,7 @@ import './App.css'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import About from './components/About'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Portofolio from './components/Portofolio'
 import Loading from './components/Loading'
 
@@ -25,13 +25,13 @@ function App() {
 
   return (
       mount?
-      <Router>
+      <Router basename="/">
         <div className="App">
           <Navbar nav={nav} navShow={navShow} linkStyle={linkStyle}/>
           <Switch>
-            <Route path="/" exact component={() => <Home linkStyle={linkStyle} />}/>
-            <Route path="/about" exact component={About} />
-            <Route path="/portofolio" exact component={Portofolio} />
+            <Route exact path="/" component={() => <Home linkStyle={linkStyle} />}/>
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portofolio" component={Portofolio} />
           </Switch>        
         </div>
       </Router>
