@@ -35,10 +35,10 @@ function About() {
                 <div className="svg_about">
                     <div className="svg_about_image"></div>
                     <div className="about_box_description">
-                        <span><i className="fab fa-github" style={{color:"#101010"}}></i></span>
-                        <span><i className="fab fa-linkedin" style={{color:"#0073b1"}}></i></span>
-                        <span><i className="fab fa-instagram" style={{color:"#e63561"}}></i></span>
-                        <span><i className="fab fa-facebook-square" style={{color:"#2c92f2"}}></i></span>
+                        <span><a href="https://github.com/andreid26"><i className="fab fa-github" style={{color:"#101010"}}></i></a></span>
+                        <span><a href="https://www.linkedin.com/in/andrei-dr%C4%83gulin-3a4977200/"><i className="fab fa-linkedin" style={{color:"#0073b1"}}></i></a></span>
+                        <span><a href="https://www.instagram.com/andreidragulin26/"><i className="fab fa-instagram" style={{color:"#e63561"}}></i></a></span>
+                        <span><a href="https://www.facebook.com/andrei.dragulin"><i className="fab fa-facebook-square" style={{color:"#2c92f2"}}></i></a></span>
                     </div>                   
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fillOpacity="1" d="M0,128L120,154.7C240,181,480,235,720,234.7C960,235,1200,181,1320,154.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
